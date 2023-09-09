@@ -19,4 +19,4 @@ Scribbler is a minimalistic blogging website that allows users to perform variou
   
 * CSS: Applied for styling and layout design.
   
-*JavaScript: Implemented for dynamic and interactive features.
+* JavaScript: Implemented for dynamic and interactive features.
