@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- TODO: Include Font Awesome file here -->
+    <!-- TODO: Include Google Fonts file here -->
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montez&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- TODO: Include all your code for the header and home page here -->
+
+    <div class="main">
+      <div class="header">
+        <div class="subheader">
+          <h2>SCrabber</h2>
+        </div>
+
+        <div class="sign_in">
+          <button id="sign_in">Sign in</button>
+          <button id="sign_up">Sign up</button>
+        </div>
+      </div>
+
+      <div class="smallheadings">
+        <h5>Explore,</h5>
+        <h5>Imagene,</h5>
+        <h5>Create</h5>
+      </div>
+
+      <div class="center_button">
+        <a href="http://127.0.0.1:5500/html/postslist.html"><button>All Posts</button></a> 
+        <button id="center_buttontwo" ><a href="http://127.0.0.1:5500/bloglist.html" style="text-decoration: none;">Create Post</a></button>
+      </div>
+
+      <!--that is our first model-->
+      <div class="form">
+        <form>
+          
+           <div class="login">
+            <button class="cross" style="width: 8%;">&times;</button>
+            <h3 class="title">Get Started</h3>
+            <label for="name">Name</label>
+            <input type="text"placeholder="Enter your name"/><br>
+            <label for="username">Username</label>
+            <input type="text" placeholder="Enter your username" /><br>
+            <label for="password">Passord</label>
+            <input type="text"placeholder="Enter your password"/><br>
+            <label for="confirmpass">Confirm Password</label>
+            <input type="text" placeholder="Re-enter your password"/><br>
+
+            <div class="button">
+              <button style="cursor:pointer;">Sign up</button>
+            </div>
+
+          </div>
+
+          
+        </form>
+
+      </div>
+   <!--that is our second model-->
+      <div class="form2">
+        <form>
+          
+           <div class="login_second">
+            <button class="cross" style="width: 8%;">&times;</button>
+            <h3 class="title">Welcome Back!</h3>
+           
+            <label for="username">Username</label>
+            <input type="text" placeholder="Enter your username" /><br>
+            <label for="password">Passord</label>
+            <input type="text"placeholder="Enter your password"/><br>
+            
+            <div class="button">
+              <button style="cursor:pointer;">Sign in</button>
+            </div>
+            
+            <div class="footer">
+            <h4>Not a member?<a href="#">Sign up</a></h4>
+          </div>
+    
+    </div>
+
+    <script src="index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Montez&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/html/post/post.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="main">
+      <div class="header">
+        <div class="subheader">
+          <h2 style="font-family: 'Montez', cursive; color: blue">SCrabber</h2>
+        </div>
+
+        <div class="sign_in">
+          <button id="button_one">Sign in</button>
+          <button id="button_two">Sign up</button>
+        </div>
+      </div>
+
+      <div class="subheadings">
+        <h5>Explore,</h5>
+        <h5>Imagene,</h5>
+        <h5>Create</h5>
+      </div>
+
+      <p id="para_one">Learning to Meditate on Scripture</p>
+
+      <div class="mid">
+        <p>Shrishti Gupta</p>
+        <button id="edit_btn">
+          Edit<i class="fa-solid fa-pen-to-square" id="edit_logo"></i>
+        </button>
+      </div>
+
+      <div class="para_two">
+        <p>
+          Node.js operates on a single-thread event loop, using non-blocking I/O
+          calls, allowing it to support tens of thousands of concurrent
+          connections without incurring the cost of thread context
+          switching.[58] The design of sharing a single thread among all the
+          requests that use the observer pattern is intended for building highly
+          concurrent applications, where any function performing I/O must use a
+          callback. To accommodate the single-threaded event loop, Node.js uses
+          the libuv library—which, in turn, uses a fixed-sized thread pool that
+          handles some of the non-blocking asynchronous I/O operations.[7] A
+          thread pool handles the execution of parallel tasks in Node.js. The
+          main thread function call posts tasks to the shared task queue, which
+          threads in the thread pool pull and execute. Inherently non-blocking
+          system functions such as networking translate to kernel-side
+          non-blocking sockets, while inherently blocking system functions such
+          as file I/O run in a blocking way on their own threads. When a thread
+          in the thread pool completes a task, it informs the main thread of
+          this, which in turn, wakes up and executes the registered callback. A
+          downside of this single-threaded approach is that Node.js does not
+          allow vertical scaling by increasing the number of CPU cores of the
+          machine it is running on without using an additional module, such as
+          cluster,[37] StrongLoop Process Manager,[59] or pm2.[60] However,
+          developers can increase the default number of threads in the libuv
+          thread pool. The server operating system (OS) is likely to distribute
+          these threads across multiple cores.[61] Another problem is that
+          long-lasting computations and other CPU-bound tasks freeze the entire
+          event-loop until completion.[citation needed]
+        </p>
+
+        <div class="like">
+          <button id="like_btn">
+            <i class="fa-solid fa-thumbs-up" id="like_logo"></i>Like
+          </button>
+          <p>Be the first person to like this</p>
+        </div>
+
+        <div class="input">
+          <input
+            type="text"
+            placeholder="Leave a comment..."
+            id="comment_input"
+          /><br />
+        </div>
+
+        <div class="comment">
+          <button id="comment_btn">Comment</button>
+        </div>
+
+        <div class="Allc">
+          <h4>All Commnents</h4>
+        </div>
+
+        <div class="footer">
+          <h5>Great post!Thanks!</h5>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

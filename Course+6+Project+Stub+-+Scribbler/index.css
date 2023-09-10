@@ -1,0 +1,179 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.subheader {
+  align-items: center;
+  color: blue;
+  font-family: "Montez", cursive;
+  font-size: 18px;
+}
+
+.sign_in button {
+  background-color: blue;
+  padding: 4px;
+  color: white;
+  transition: background-color 0.5s;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.sign_in {
+  margin-left: 80vw;
+  margin-top: 1vw;
+}
+.smallheadings {
+  display: flex;
+  margin-top: 2px;
+  color: white;
+}
+.smallheadings h5 {
+  margin-top: 0vw;
+  padding-left: 0.7vw;
+  color: black;
+  text-transform: uppercase;
+}
+
+body {
+  background-image: url(https://www.freewalldownload.com/mountain-wallpapers/autumn-mountain-river-hd-images.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.center_button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-top: 40vh;
+  cursor: pointer;
+}
+
+.center_button button {
+  padding: 4px;
+  background-color: yellow;
+  margin-left: 0.5vw;
+  text-decoration: none;
+}
+
+.title {
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+  font-weight: lighter;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 10px;
+  border-radius: 4px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: 200ms ease-in-out;
+  width: 30%;
+  padding-left: 5px;
+  box-shadow: 0px 0px 10px 3px #ccc;
+  pointer-events: none;
+}
+.login input {
+  height: 30px;
+}
+
+.login button {
+  width: 100%;
+  height: 35px;
+  background-color: green;
+  color: white;
+  transition: background-color 0.5s;
+  border-radius: 3px;
+}
+button:hover {
+  background-color: gold;
+}
+
+.button {
+  padding-bottom: 10px;
+}
+.cross {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  width: 5px;
+  height: 25px;
+  background-color: green;
+  text-align: center;
+  color: white;
+  transition: background-color 0.5s;
+  cursor: pointer;
+}
+
+.cross:hover {
+  background-color: gold;
+}
+
+.active {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/*second mmodal*/
+
+.login_second {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 10px;
+  border-radius: 4px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transition: 200ms ease-in-out;
+  width: 30%;
+  padding-left: 5px;
+  box-shadow: 0px 0px 10px 3px #ccc;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.login_second input {
+  height: 30px;
+}
+
+.login_second button {
+  width: 100%;
+  height: 35px;
+  background-color: green;
+  color: white;
+  transition: background-color 0.5s;
+  border-radius: 3px;
+}
+
+.login_second button:hover {
+  background-color: gold;
+}
+
+.footer {
+  margin-left: 35%;
+}
+.active_one {
+  opacity: 1;
+  pointer-events: auto;
+}
